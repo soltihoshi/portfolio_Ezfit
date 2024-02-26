@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.TodayEat{
+    box-sizing: border-box;
+    height: 100%;
+}
+.TodayEat div{
+    height: 33%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.TodayEat .last{
+    margin: 0;
+}

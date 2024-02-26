@@ -1,0 +1,16 @@
+@charset "utf-8";
+.Slider{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.Slider div{
+    display: flex;
+    width: 90%;
+    height: auto;
+    padding : 5px 0;
+}
+.Slider img{
+    width: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+.Hdiet img{
+    width: 20px;
+    height: 20px;
+}
+.Hdiet{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 375px;
+    box-sizing: border-box;
+    padding: 10px 10px 20px 10px;
+    background-color: #93ACFF;
+}
+.Hdiet h3{
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.dietList{
+    width: 100%;
+}
+.DietLeft, .DietRight{
+    display: flex;
+}
+.DietLeftItem, .DietRight .Drink, .DietRight .ChartAll, .DInfo{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.DietLeftItem{
+    width: 33%;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.DietRight .Drink, .DietRight .ChartAll{
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Hdiet .DInfo{
+    padding-top: 15px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.DInfo p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.DInfo .infoTitle{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000;
+}
+.DietLeftItem, .Drink{
+    position: relative;
+}
+.DietBtn{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.DietBtn img{
+    width: 100%;
+    height: 100%;
+    line-height: 20px;
+}
+.DTitle{
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+/* DietLeft */
+.DietLeft .DTitle{
+    margin-bottom: 25px;
+}
+.DietLeftBottom{
+    margin-bottom: 20px;
+}
+.DietLeftBottom{
+    text-align: center;
+}
+.DietLeftBottom span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.TodayEat{
+    box-sizing: border-box;
+    height: 100%;
+}
+.TodayEat div{
+    height: 33%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.TodayEat .last{
+    margin: 0;
+}
+/* DietRight */
+.DietRight .DietBtn{
+    font-weight: 700;
+    line-height: 18px;
+}
+.DietRight .cup{
+    width: 90px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cup img{
+    width: 100%;
+    height: 100%;
+}
+.DietRight .drinkBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.drinkBtn p{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.drinkBtn button{
+    width: 23px;
+    height: 23px;
+    opacity: 0.7;
+}
+.drinkBtn button img{
+    width: 100%;
+    height: auto;
+}
+.ChartAll{
+    position: relative;
+}
+.ChartAll .labelKcal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -36px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 60px;
+}
+.ModalDrink, .ModalChart{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.ModalDrink .content, .ModalChart .content{
+    position: relative;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    min-height: 30%;
+    line-height: 1.6em;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.ModalDrink .contentTxt, .ModalChart .contentTxt{
+    margin-bottom: 30px;
+}
+.ModalDrink .content{
+    top: 38%;
+    height: 24%;
+}
+.modalCloseBtn{
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    background-color: #93ACFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ModalChart p{
+    margin-bottom: 10px;
+}
+.ModalChart span{
+    font-weight: 500;
+}
+.ModalChart .title{
+    line-height: 1.4em;
+    margin-bottom: 8px;
+    text-align: center;
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+.FoodRecord{
+    width: 100%;
+    padding-bottom: 5vw;
+}
+.FoodRecord .backHome{
+    padding-left: 6vw;
+    font-size: 4vw;
+}
+.FoodRecord .recordBase input{
+    background-color: #d9d9d98d;
+    color: #9d9d9d;
+    text-align: center;
+    outline: none;
+    border: 0;
+    width: 80%;
+    height: 14vw;
+    font-size: 5vw;
+    border-radius: 4vw;
+    padding: 0 5%;
+    margin: 5%;
+    font-weight: 700;
+}
+.FoodRecord .recordBtn{
+    padding: 0 10vw;
+    height: 22vw;
+}
+.FoodRecord .foodMount{
+    display: flex;
+    justify-content: space-between;
+}
+.recordBtn .plusBtn{
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+.FoodRecord .mount{
+    width: 70vw;
+    height: 22vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #ACCBFF;
+    border-radius: 3vw;
+    
+}
+.FoodRecord .fBtns{
+    display: flex;
+    width: 70vw;
+    height: 8vw;
+    
+}
+.FoodRecord .fBtns p{
+    width: 35vw;
+    height: 8vw;
+    text-align: center;
+    margin: 0;
+    font-size: 5vw;
+    font-weight: 700;
+}
+.FoodRecord .mTxt{
+    border-radius: 3vw 0 0 0;
+    height: 7vw;
+    padding-top: 1vw;
+    background-color: #ACCBFF;
+    color: #F4FAFF;
+    line-height: 1.5em;
+}
+.FoodRecord .mTxtnone{
+    border-radius: 3vw 0 0 0;
+    height: 7vw;
+    padding-top: 1vw;
+    background-color: #F4FAFF;
+    color: #ACCBFF;
+    line-height: 1.5em;
+}
+.FoodRecord .gTxt{
+    color: #F4FAFF;
+    border-radius: 0 3vw 0 0;
+    height: 7vw;
+    padding-bottom: 1vw;
+    background-color: #ACCBFF;
+    line-height: 1.5em;
+}
+.FoodRecord .gTxtnone{
+    border-radius: 0 3vw 0 0;
+    height: 7vw;
+    padding-bottom: 1vw;
+    background-color: #F4FAFF;
+    color: #ACCBFF;
+    line-height: 1.5em;
+}
+.FoodRecord .gInput, .FoodRecord .mInput{
+    color: #fff;
+    width: 68vw;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    margin-top: 1vw;
+    padding: 0;
+    border-radius: 3vw;
+    border: 0;
+}
+.FoodRecord .gInput{
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    background-color: #ACCBFF;
+    font-size: 5vw;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+}
+.FoodRecord .mInput{
+    margin-bottom: 0.1vw;
+    background-color: #ACCBFF;
+    font-size: 5vw;
+    margin-left: 1vw;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+}
+
+.FoodItem{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 0 20%;
+    margin-bottom: 3vw;
+}
+.FoodItem .Food{
+    font-size: 4vw;
+    margin: auto 0;
+    font-weight: 700;
+    color: #333;
+}
+.FoodItem .FoodMount{
+    display: flex;
+}
+.FoodItem .mountNum{
+    text-align: center;
+    width: 12vw;
+    height: 8vw;
+    padding: 1.9vw 2.5vw 0.1vw 2.5vw;
+    border-radius: 4vw;
+    border: none;
+    background-color: #ecf5fd;
+    font-size: 4vw;
+    font-weight: 700;
+    color: #333;
+    margin-right: 2vw;
+    line-height: 1.5em;
+}
+.FoodItem .mountTxt{
+    margin: auto 0;
+    font-size: 4vw;
+    font-weight: 700;
+    color: #333;
+}

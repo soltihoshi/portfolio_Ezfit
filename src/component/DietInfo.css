@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.DietInfo{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 375px;
+}
+.infoHeader{
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.infoHeader .infoTitle{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+}
+.infoHeader .prevBtn{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -10px;
+}
+.prevBtn button{
+    width: 25px;
+    height: 25px;
+}
+.prevBtn button img{
+    width: 100%;
+    height: 100%;
+}
+.prevBtn button{
+    width: 20px;
+    height: 20px;
+}
+.DietInfo .infoContent{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.infoContent .infoPhoto{
+    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+.infoPhoto img{
+    width: 100%;
+    height: auto;
+}
+.infoContent .infoTxt{
+    padding: 0 25px;
+    font-size: 12px;
+}

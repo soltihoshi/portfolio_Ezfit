@@ -1,0 +1,16 @@
+@charset "utf-8";
+.Video{
+    width: 100%;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+.VideoCate{
+    width: 130%;
+    margin-bottom: 50px;
+}
+.VideoCate h2{
+    font-size: 1.3em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

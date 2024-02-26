@@ -1,0 +1,81 @@
+@charset "uft-8";
+.Challengemore{
+    position: relative;
+    padding: 20px;
+}
+.topSubject{
+    position: absolute;
+    top: 3.5vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: 500;
+    font-size: 16px;
+}
+.btnBack{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../public/img/backarrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    text-indent: -99999px;
+    margin: 5px 0 15px 0;
+}
+.Challengemore .video{
+    text-align: center;
+    margin: 30px auto;
+}
+.video iframe{
+    width: 90%;
+    height: auto;
+}
+.info{
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.exer_info{
+    text-align: left;
+}
+.goChallenge{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.goChallenge button{
+    width: 120px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #8993ff;
+    background-color: #93ACFF;
+    box-shadow: 1px 1px 2px rgba(86, 26, 166, 0.5);
+}
+.challengetext{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cacaca;
+}
+.endcontent{
+    display: flex;
+}
+.endcontent div{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.endcontent div img{
+    width: 100%;
+    height: auto;
+}
+.modal{
+    display: none;
+}
+.show{
+    display: block;
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.cate{
+    width: 30px;
+    cursor: pointer;
+}
+.openCate{
+    position: relative;
+    position: fixed;
+    left: 10px;
+    top: 35px;
+    z-index: 100;
+    padding: 10px 10px;
+    width: 200px;
+    background-color: #accbff;  
+    border-radius: 5px;
+    display: none;
+}
+.openCate.show{
+    display: block;
+}
+.myVideo{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+.closeCate{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    opacity: 0.8;
+}
+.BeginnerVideo, .intermediateVideo{
+    margin-bottom: 10px;
+}

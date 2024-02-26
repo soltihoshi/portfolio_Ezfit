@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* ExerList */
+.ExerciseList{
+    padding-bottom: 5vw;
+}
+.ExerItem{
+    padding-bottom: 5vw;
+}
+/* ExerItem */
+.ExerciseItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+    width: 80%;
+    padding: 0 10%;
+}
+
+.ExerTitle{
+    padding-top: 2vw;
+    font-size: 4vw;
+    font-weight: 600;
+    color: #333;
+}
+.ExerMin{
+    display: flex;
+
+}
+.ExerMin p{
+    margin: 0;
+
+}
+.ExerMin .subCount{
+    background-color: transparent;
+    text-align: center;
+}
+.ExerMin input{
+    text-align: center;
+    width: 12vw;
+    height: 8vw;
+    padding: 1vw 2.5vw;
+    border-radius: 4vw;
+    border: none;
+    background-color: #ecf5fd;
+    font-size: 4vw;
+    font-weight: 600;
+    color: #333;
+}
+.ExerTotal{
+    display: flex;
+}
+.ExerTotal p{
+    margin: 0;
+}
+.ExerTotal .txt, .ExerMin .txt, .subTotal .txt{
+    font-size: 4vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    font-weight: 600;
+    color: #333;
+}
+
+.ExerMin{
+    display: flex;
+
+}
+.ExerMin p{
+    margin: 0;
+}
+
+.subTotal input{
+    text-align: center;
+    width: 12vw;
+    height: 8vw;
+    padding: 1vw 2.5vw;
+    border-radius: 4vw;
+    border: none;
+    background-color: #ecf5fd;
+    font-size: 4vw;
+    font-weight: 600;
+    color: #333;
+
+}
+
+.subTotal{
+    background-color: #ecf5fd;
+    border-radius: 4vw;
+    border: none;
+
+}
+
+
+.noCount{
+    display: none;
+}
+.ExerTotal{
+    display: flex;
+}
+.ExerTotal p{
+    margin: 0;
+}
+/* VideoItem */
+.Search{
+    width: 90%;
+    padding-top: 2vw;
+}
+.Search input{
+    background-color: #d9d9d98d;
+    border: 0;
+    border-radius: 4vw;
+    margin: 5% 5%;
+    padding: 0 5%;
+    width: 90%;
+    height: 14vw;
+    font-size: 5vw;
+    font-weight: 700;
+    color: #9d9d9d;
+    outline: none;
+    text-align: center;
+}
+.videoList{
+    padding-bottom: 5vw;
+}
+.videoTxt{
+    font-size: 4vw;
+    width: 90%;   
+    padding: 3vw 5%;
+    font-weight: 700;
+    color: #333;
+    background-color: #fff;
+}
+.videoTxt button{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: -5px;
+}
+.VideoItem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 4vw;
+    font-weight: 500;
+    width: 80%;
+    background-color: #ecf5fd;
+    padding: 3vw 5%;
+    margin: 2% 5%;
+    border-radius: 4vw;
+    color: #333;
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+.total{
+    margin: 0 10px;
+    background-color: #93ACFF;
+    border-radius: 2.6vw;
+}
+.total h3{
+    padding-top: 2.2vw;
+    color: #ffffffc4;
+    font-size: 5vw;
+    margin: 0;
+}
+.total .kcal{
+    margin-top: 5.3vw;
+    font-size: 11vw;
+    font-weight: 800;
+    color: #fff;
+}
+.total button{
+    background-color: #fff;
+    border: 0;
+    width: 32vw;
+    height: 10.1vw;
+    border-radius: 2.6vw;
+    margin-top: 5.3vw;
+    font-size: 4.5vw;
+    font-weight: 800;
+}
+.total .morekcal{
+    margin-top: 4vw;
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #ffffffc4;
+    padding-bottom: 4vw;
+}
+.total .morekcal span{
+    font-size: 4.5vw;
+    font-weight: 700;
+}
+.plusBtn button{
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 7vw;
+    color: #fff;
+    border-radius: 3vw;
+    margin-top: -10px;
+    background-color: #8993FF;
+}
+
+
+

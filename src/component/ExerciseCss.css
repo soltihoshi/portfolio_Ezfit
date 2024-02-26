@@ -1,0 +1,9 @@
+@charset "utf-8";
+.total{
+    text-align: center;
+}
+.Exercise{
+    margin: 0 10px;
+    padding-top: 10px;
+    text-align: left;
+}

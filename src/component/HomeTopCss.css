@@ -1,0 +1,25 @@
+@charset "utf-8";
+.Header{
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 30px;
+    display: flex;
+}
+.button_three {
+    display: flex;
+}
+.button_three > div {
+    margin: 0 10px;
+}
+.Header > div{
+    margin-right: 20px;
+    color: #4d4d4d;
+    cursor: pointer;
+}
+.Header > div .active{
+    font-weight: 700;
+    color: #131313;
+}

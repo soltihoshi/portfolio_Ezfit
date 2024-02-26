@@ -1,0 +1,98 @@
+@charset "utf-8";
+.Pedometer{
+    padding: 30px 0px;
+    margin: 20px 10px 30px 10px;
+    box-sizing: border-box;
+    background-color: rgb(224, 247, 255);
+    position: relative;
+    border-radius: 10px;
+}
+.Pedometer ul{
+    display: flex;
+    justify-content: center;
+}
+.walk_img{
+    text-align: left;
+    width: 40%;
+    padding: 10px 0;
+}
+.walk_img img{
+    width: 60%;
+    height: auto;
+}
+.Pedometer > ul > li > div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.walkCount{
+    font-size: 30px;
+    font-weight: 600;
+}
+.walk, .setWalk{
+    margin-top: 14px;
+    font-size: 16px;
+    color: #aaa;
+    font-weight: 600;
+}
+.setWalk{
+    text-align: center;
+    margin-left: 8px;
+    width: 70px;
+}
+.setting{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.setting img{
+    width: 80%;
+    opacity: 0.8;
+}
+
+.modalWalk{
+    display: none;
+    position: relative;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 90%;
+    height: 72%;
+    background-color: rgb(224, 247, 255);
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.modalWalk div.inputWalk{
+    margin-top: 5px;
+}
+.modalWalk img{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.modalWalk input{
+    width: 50%;
+    border: 0;
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.modalWalk .walkNoti{
+    color: red;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.modalWalk .walkNoti div{
+    display: none;
+}
+.modalWalk button{
+    background-color: lightblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

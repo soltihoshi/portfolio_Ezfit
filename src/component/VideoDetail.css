@@ -1,0 +1,115 @@
+@charset "utf-8";
+.VideoDetail{
+    margin: 0 10px;
+}
+.DetailHead{
+    padding-top: 2vh;
+    display: flex;
+    height: 4vh;
+}
+.DetailHead img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.DetailHead p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4444vh;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.DetailVideo{
+    margin-bottom: 2vh;
+}
+.Intensity{
+    text-align: center;
+}
+.Intensity p{
+    font-size: 1.4444vh;
+    line-height: 1.5;
+    margin-bottom: 1.55555vh;
+}
+.UserGrade{
+    display: flex;
+    justify-content: center;
+}
+.UserGrade p{
+    margin-bottom: 3px;
+    font-weight: 600;
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.UserGrade img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2.22222vh;
+}
+.EmojiFrame{
+    margin-bottom: 20px;
+}
+.colorEmoji{
+    position: relative;
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.C_Emoji.off{
+    opacity: 0;
+}
+.greyEmoji{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+.colorEmoji img, .greyEmoji img{
+    width: 18%;
+    height: 18%;
+    cursor: pointer;
+}
+.chooseEmoji p{
+    text-align: center;
+    display: none;
+}
+.slick{
+    margin: 50px 0 30px 0;
+}
+.slick p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b4b4b;
+    text-align: center;
+}
+.DetailSlider{
+    width: 200%;
+    height: auto;
+}
+.DetailSlider div{
+    display: flex;
+    width: 90%;
+    height: auto;
+    padding : 5px 0;
+}
+.DetailSlider div img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.addVideoList{
+    text-align: center;
+    line-height: 1.8;
+}
+.addVideoList button{
+    font-weight: 600;
+    background-color: #93ACFF;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

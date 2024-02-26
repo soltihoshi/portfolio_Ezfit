@@ -1,0 +1,106 @@
+@charset "uft-8";
+
+.userPicture{
+    position: relative;
+    width: 100%;
+}
+.userPicture::after{
+    position: absolute;
+    top: 50px;
+    display: block;
+    content :"";
+    width: 100%;
+    height: 120px;
+    z-index: -999;
+    background-color: #93ACFF;
+}
+.Pictureimg{
+    margin: 50px auto 10px auto;
+    width: 100px;
+    height: 100px;
+}
+.Pictureimg img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.userName{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.userName span{
+    margin-right: 5px;
+}
+.userName span img{
+    width: 23px;
+    height: 23px;
+}
+.Editbutton{
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.myBody .title, .myBadge .title, .mygrade .title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 20px;
+}
+.title .text{
+    font-size: 15px;
+    font-weight: 600;
+}
+.myBody, .myBadge, .mygrade{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.myBody{
+    margin-top: 75px;
+}
+.bodybadge{
+    display: flex;
+    justify-content: space-between;
+}
+.bodybadge > div {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    text-align: center;
+}
+.bodybadge > div img{
+    width: 70%;
+    height: auto;
+}
+.bodybadge > div > p{
+    margin-top: 10px;
+}
+.modal{
+    display: none;
+}
+.modal.show{
+    display: block;
+}
+.modalwrap .modaltext{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 20px;
+    margin: 0 20px;
+}
+.Bodymodal {
+    display: none;
+}
+.Bodymodal.show{
+    display: block;
+}
+.modalsubject img{
+    width: 100%;
+    height: auto  ;
+}

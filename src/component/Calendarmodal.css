@@ -1,0 +1,88 @@
+@charset "uft-8";
+
+.Showdetail{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 0 30px;
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #93acff;
+    border-radius: 10px;
+    z-index: 1000;
+}
+.carlendar .prev, .carlendar .next{
+    vertical-align: top;
+    margin-top: 5px;
+    width: 20px;
+    height: 10px;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.backbtn {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../public/img/backarrow.svg);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    margin-top: 3px;
+}
+.remove{
+    width: 23px;
+    height: 23px;
+    background-image: url(../../public/img/removeRed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    text-indent: -99999px;
+}
+.carlendar .prev{
+    background-image: url(../../public/img/left.png);
+}
+.carlendar .next{
+    background-image: url(../../public/img/right.png);
+}
+.detailTop{
+    padding-top: 20px;
+}
+.detailTop,.carlendar,.top{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+.exer, .food, .exer .top, .food .top{
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.exer .top, .food .top{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #93acff;
+}
+.contentFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.contentFlex > div{
+    margin-bottom: 10px;
+}
+.top .title{
+    color: #93acff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.content {
+    color: #111;
+    font-weight: 500;
+}
+.content .count{
+    display: flex;
+}
+.content .count p{
+    padding-left: 1px;
+}

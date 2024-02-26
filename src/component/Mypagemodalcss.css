@@ -1,0 +1,91 @@
+@charset "uft-8";
+.exerGrade input[type="radio"]{
+    vertical-align: middle;
+    appearance: none;
+}
+.Mypagemodal{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+.mymodalIn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #93ACFF;
+    border-radius: 15px;
+    padding: 30px;
+}
+.bodyTitle{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.genderFlex{
+    display: flex;
+}
+.genderFlex > div:last-child{
+    margin-left: 10px;
+}
+.flexIn{
+    display: flex;
+    line-height: 1em;
+}
+.flexIn > div {
+    margin: 0 0 10px 3px;
+}
+.userGender > label:last-child{
+    margin-left: 10px;
+}
+.bodytext{
+    margin-bottom: 8px;
+}
+.userAge, .userHeight, .userWeight{
+    margin-bottom: 10px;
+}
+.userAge input, .userHeight input, .userWeight input{
+    width: 100%;
+    height: 25px;
+}
+.bodytext{
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+.bmiInfo{
+    margin: 30px 0;
+    line-height: 1.5em;
+}
+.gradeWrap{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 30px 0;
+}
+.gradeWrap > div{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.gradeWrap > div > label > img{
+    width: 70%;
+}
+.Mypagemodal .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.Mypagemodal .flex > p{
+    width: 48%;
+    height: 30px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #93ACFF;
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+.WritePost{
+    width: 100%;
+}
+.postTop{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 0;
+}
+.postTop .backHome{
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../public/img/backarrow.svg);
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+}
+.WritePost input{
+  width: 90vw;
+  padding: 2vw 5vw;
+  font-size: 6vw;
+  border: 0;
+  outline: none;
+}
+
+.WritePost .PostTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.WritePost h2{
+    text-align: center;
+    font-size: 5vw;
+    padding-right: 10vw;
+}
+.WritePost textarea{
+    padding: 5vw;
+    width: 90vw;
+    height: 90vw;
+    background-color: #eee;
+    border: none;
+    font-size: 6vw;
+    font-weight: 600;
+    outline: none;
+}
+.WritePost p{
+    padding: 5vw 0;
+    padding-left: 3vw;
+    font-size: 4vw;
+    font-weight: 600;
+}
+.image-upload-container {
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-upload-btn {
+    width: 27vw;
+    height: 27vw;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 25%;
+    margin-right: 5.8vw;
+  }
+  
+  .image-preview-container {
+    display: flex;
+    overflow: hidden;
+    width: 70%;
+    
+  }
+
+  .image-preview {
+    position: relative;
+    width: 27vw;
+    height: 27vw;
+  }
+  
+  .image-preview img {
+    width: 27vw;
+    height: 27vw;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 25%;
+  }
+  
+  .image-preview button {
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 0;
+    left: 0;
+
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #imageUpload{
+    display: none;
+  }
+  .slick-next,
+.slick-prev {
+  display: none;
+}
+.slick-slider.slick-initialized{
+    width: 100%;
+    height: 27vw;
+}
+
+.slick-list{
+    width: 100%;
+}
+.slick-track{
+    width: 70%;
+}
+.UploadBtn{
+  padding: 5vw;
+}
+.UploadBtn button{
+  font-size: 4vw;
+  color: #fff;
+  background-color: cornflowerblue;
+  width: 90%;
+  padding: 5vw 0;
+  margin: 0 5%;
+  border-radius: 7vw;
+}

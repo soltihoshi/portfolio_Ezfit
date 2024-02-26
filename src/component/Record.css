@@ -1,0 +1,88 @@
+@charset "utf-8";
+.Record{
+    width: 100%;
+    background-color: #fff;
+}
+.homeclose .backHome{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../public/img/backarrow.svg);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+.Record select{
+    font-size: 4vw;
+    font-weight: 500;
+    padding-left: 1vw;
+}
+.Record .recordTxt{
+    font-size: 4vw;
+    font-weight: 500;
+    padding-top: 3vw;
+    margin: 0 2vw;
+}
+.Record .recordBase{
+    width: 90%;
+    padding: 0 5%;
+}
+.Record .recordInput{
+    background-color: #d9d9d98d;
+    border: 0;
+    padding: 0 5%;
+    border-radius: 4vw;
+    width: 90%;
+    height: 14vw;
+    font-size: 5vw;
+    font-weight: 800;
+    color: #9d9d9d;
+    outline: none;
+    text-align: center;
+    margin-bottom: 6vw;
+}
+.Record .recordBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.recordBtn .recordInput{
+    text-align: center;
+    width: 12vw;
+    height: 8vw;
+    padding: 1vw 2.5vw;
+    border-radius: 4vw;
+    border: none;
+    background-color: #ecf5fd;
+    font-size: 4vw;
+    font-weight: 600;
+    color: #333;
+}
+.recordBtn select{
+    margin-right: 20px;
+    height: 10vw;
+    border: 0;
+}
+.recordBtn .recordTxt{
+    font-size: 4vw;
+}
+.recordBtn .rBtn{
+    display: flex;
+    justify-content: space-between;
+}
+.homeclose{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+.RecordClose{
+    width: 11vw;
+    height: 11vw;
+    line-height: 3.5em;
+    text-align: center;
+    color: #fff;
+    font-size: 3.3vw;
+    font-weight: 600;
+    background-color: #8993ff;
+    border-radius: 3vw;
+}

@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+.Challenge .challengeBn{
+    text-align: center;
+    background-color: #F4FAFF;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.challengeBn .cTxt{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+.cTxt span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.challengeBn .cBtn button{
+    padding: 8px 18px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    background-color: #8993FF;
+}
+.cFeed h3{
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.cPhoto{
+    display: grid;
+    width: calc(100% - 20px);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cPhoto div{
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+.cPhoto div img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 식단 피드 */
+.tagBox {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .scroll-container {
+    display: flex;
+    gap: 15px;
+    transition: transform 0.3s ease-in-out;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .scroll-container::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .foodTagBox {
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  
+/* 자유 피드 */
+.FreeList > div:nth-child(2) {
+    border: transparent;
+    margin-top: -30px;
+}
+.FreeItem{
+    padding: 30px 25px;
+    border-top: 1px solid #ddd;
+}
+.itemHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile{
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.rank{
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 5px;
+}
+.profile img, .rank img{
+    object-fit: cover;
+    width: 100%;
+}
+.nickname{
+    font-size: 0.9em;
+    color: #777;
+}
+.itemContent{
+    padding: 0 10px;
+}
+.itemContent h3{
+    font-size: 0.98em;
+    margin-bottom: 1em;
+}
+.itemContent .content{
+    font-size: 0.9em;
+}
+.likeComment, .like, .comment{
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.like{
+    margin-right: 15px;
+}
+.likeImg, .commentImg{
+    overflow: hidden;
+    margin-right: 2px;
+}
+.likeImg{
+    width: 18px;
+    height: 18px;
+}
+.commentImg{
+    width: 20px;
+    height: 20px;
+}
+.likeImg img, .commentImg img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2px;
+}
+
+/* 글쓰기 버튼 */
+.Feed{
+    position: relative;
+}
+.writing{
+    position: fixed;
+    right: 30px;
+    bottom: 150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8993FF;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.writing img{
+    width: 100%;
+    height: auto;
+}

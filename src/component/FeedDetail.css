@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.detailHeader, .detailLeft, .detailRight{
+    display: flex;
+}
+.detailHeader{
+    justify-content: space-between;
+    padding: 20px;
+}
+.detailLeft, .detailRight{
+    font-size: 0.95em;
+    line-height: 30px;
+}
+.detailProfile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.detailFollow, .detailProfile{
+    margin-right: 8px;
+}
+.detailProfile img{
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+}
+.detailPhoto{
+    min-width: 375px;
+    min-height: 375px;
+    overflow: hidden;
+}
+.detailPhoto img{
+    width: 100%;
+    object-fit: cover;
+}
+.detailFooter{
+    padding: 18px 20px;
+}
+.detailIcon{
+    display: flex;
+    margin-bottom: 10px;
+}
+.detailBtn{
+    width: 1.74em;
+    height: 1.74em;
+}
+.detailLike{
+    margin-right: 10px;
+}
+.detailBtn img{
+    width: 100%;
+    height: 100%;
+}
+.detailContent{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.detailCommentNum{
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
